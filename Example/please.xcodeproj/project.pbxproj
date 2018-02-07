@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3953C9ECFB2126E258C211B0 /* please.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = please.podspec; path = ../please.podspec; sourceTree = "<group>"; };
+		3953C9ECFB2126E258C211B0 /* please.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = please.podspec; path = ../please.podspec; sourceTree = "<group>"; };
 		5834C7903AFB7549F776180F /* Pods-please_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-please_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-please_Tests/Pods-please_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* please_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = please_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63DC56EE64A9656FEBBE34C3 /* Pods-please_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-please_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-please_Example/Pods-please_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		64D2AE3AC6D84B8D59A9F537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		64D2AE3AC6D84B8D59A9F537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7D7D4F458C80F7CE80ED731C /* Pods-please_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-please_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-please_Example/Pods-please_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8DAA9874BBF2EF9BC3365558 /* Pods_please_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_please_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9299CB9299F7117352FF6453 /* Pods_please_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_please_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2641E4397E9C4F17E8FC289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2641E4397E9C4F17E8FC289 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D9E68A895A61F76CFF3D91E3 /* Pods-please_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-please_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-please_Tests/Pods-please_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5Q94RJ3V5C;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,7 +518,9 @@
 			baseConfigurationReference = 63DC56EE64A9656FEBBE34C3 /* Pods-please_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q94RJ3V5C;
 				INFOPLIST_FILE = please/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +535,9 @@
 			baseConfigurationReference = 7D7D4F458C80F7CE80ED731C /* Pods-please_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q94RJ3V5C;
 				INFOPLIST_FILE = please/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

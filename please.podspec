@@ -32,9 +32,9 @@ DESC
 
   s.source_files = 'please/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'please' => ['please/Assets/*.png']
-  # }
+   s.resource_bundles = {
+'please' => ['please/Assets/*.{png, ,storyboard)']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
